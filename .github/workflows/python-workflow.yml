@@ -15,6 +15,9 @@ jobs:
       
     - name: Upgrade pip
       run: pip install --upgrade pip
+    
+    - name: Checkout Repo
+      uses: action/checkout@v3
 
     - name: Install dependencies
       run: |
